@@ -1,0 +1,208 @@
+h2{font-size: 3.3rem;
+	font-family: arial;
+	 line-height: 4rem;
+}
+
+
+
+
+
+#title {
+	background-color: red;
+	color: #fff;
+}
+
+#main-dog {
+	font-family: 'Montserrat-black', sans-serif;
+	margin-top: 50px;
+	font-size: 4.3rem;
+}
+
+.container-fluid {
+	padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+	font-size: 30px;
+}
+
+.nav-link {
+	padding: 5px 18px;
+}
+
+.image {
+
+	
+	width: 25%;
+	transform: rotate(28deg);
+	position: absolute;
+	right: 18%;
+	
+}
+
+.btn {
+	padding: 10px;
+	margin-top: 20px;
+}
+
+button:hover#button1 {
+	background-color: red;
+	color: black;
+}
+
+
+#button1 {
+	margin: 40px 10px;
+
+}
+
+#button2 {
+       
+
+
+	margin: 40px 10px;
+}
+
+button:hover#button2 {
+	background-color: red;
+
+	color: white;
+}
+
+.navbar-nav {
+	font-size: 1.5rem;
+	margin-left: 700px;
+}
+
+
+
+/********************feature section*************************/
+#features{
+	padding: 7% 15%;
+	text-align: center;
+	background-color: white;
+	position: relative;
+
+}
+
+.feature-box{
+	padding: 
+	4%;
+}
+
+
+/* hover for icons  */
+
+i:hover.ccon{
+	color: red;
+}
+
+
+.ccon{
+	margin-bottom: 1.2rem;
+	font-size: 5rem;
+
+	
+	color: pink;
+}
+
+
+/****************** testimonials*****************************/
+
+#testimonials{
+	background-color: red;
+	padding: 7% 15%;
+	text-align: center;
+	color: white;
+   
+}
+	
+	
+
+
+#press{
+	background-color: red;
+	padding: 5%;
+	text-align: center;
+}
+
+
+
+.testimonials-img{
+	margin-top: 40px;
+	width:15%;
+border-radius: 50%;
+}
+.press-logo{
+	width: 20%;
+	padding: 10px;
+}
+
+
+#pricing
+{
+padding: 3%;
+}
+
+.Col{
+	padding: 3% 2%;
+	text-align: center;
+}
+
+.header-div
+{
+	text-align: center;
+	font-size: 2rem;
+
+}
+.card{
+
+}
+
+.Chihuahua-button{
+	color: red;
+	padding: 3%;
+
+}
+.labrador-button{
+	color: red;
+	padding: 3%;
+}
+.Mastiff-button{
+	color: red;
+	padding: 3%;
+}
+
+
+
+@media (max-width: 1050px) {
+	#title{
+		text-align: center;
+	}
+	.image{
+		width: 100%;
+		position: static;
+		transform: rotate(0);
+	}
+}
+
+/***************cta*** part**/
+#cta{
+	background-color: red;
+	padding: 7% 15%;
+	text-align: center;
+  	color: white;
+
+ 
+}
+#cta-h3{
+	font-size: 3rem;
+	padding: 5%;
+}
+/***************footer***********/
+#footer{
+	padding: 7% 15%;
+	text-align: center;
+ font-size: 2rem;
+
+}
